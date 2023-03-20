@@ -1,0 +1,75 @@
+/*css de ventana bolestos*/
+#cuerpo{
+    margin-top: 20px;
+}
+
+#cuerpo{
+    width: 75%;
+    height: 300px;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+#boletos{
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    margin-right: 5px;
+    background-color: rgba(117, 95, 95, 0.2);
+}
+#infoPelicula{
+    float: right;
+    width: 33%;
+    height: 300px;
+    background-color: rgba(117, 95, 95, 0.2);
+}
+#imgTicket{
+    width: 60%;
+    margin-left: 90px;
+}
+/*Numero de boletos*/
+.counter {
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(255, 103, 0, 0.5);
+    color: #fff;
+    appearance: none;
+    outline: 0;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #FF6700;
+    user-select: none;
+}
+
+#pelicula h3{
+    color: white;
+    text-align: center;
+}
+
+#continuarSeleccionAsientos{
+    text-align: center;
+    margin-top: 20px;
+}
+#continuarSeleccionAsientos a{
+    width: 50px;
+    margin-top: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FF6700;
+    padding: 5px;
+    border: #FF6700 solid 0.5px;
+}

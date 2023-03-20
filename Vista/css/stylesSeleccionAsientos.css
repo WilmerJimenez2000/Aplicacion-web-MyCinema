@@ -1,0 +1,142 @@
+/*css de ventana bolestos*/
+#cuerpo{
+    margin-top: 20px;
+}
+
+#cuerpo{
+    width: 75%;
+    height: 550px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+#infoPelicula{
+    float: right;
+    width: 33%;
+    height: 500px;
+    background-color: rgba(117, 95, 95, 0.2);
+}
+/*Numero de boletos*/
+.counter {
+    width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.counter input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(255, 103, 0, 0.5);
+    color: #fff;
+    appearance: none;
+    outline: 0;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #FF6700;
+    user-select: none;
+}
+
+/*Estilos de la seleccion de bolwetos*/
+#asientos{
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    margin-right: 5px;
+    background-color: rgba(117, 95, 95, 0.2);
+}
+#pantalla{
+    margin-top: 10px;
+    margin-left: 37px;
+    background: red;
+    background-color: rgba(117, 95, 95, 0.5);
+    width: 90%;
+    text-align: center;
+}
+
+#pantalla h3{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#grafico{
+    width: 100%;
+}
+
+.fila{
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.columna_Disponible{
+    background: rgba(11,156,49,0.8);
+    color: #fff;
+    flex: none;
+    width: calc((100% -5px)/11);
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+}
+.columna_noDisponible{
+    background: rgba(230, 16, 16, 0.8);
+    color: #fff;
+    flex: none;
+    width: calc((100% -5px)/11);
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+}
+.Ocupado{
+    background: rgba(230, 16, 16, 0.1);
+    color: gray;
+    flex: none;
+    width: calc((100% -5px)/11);
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1em;
+}
+
+#partes{
+    margin-bottom: 10px;
+}
+
+/*Valores de la pelicula*/
+#pelicula h3{
+    color: white;
+    text-align: center;
+}
+
+#continuarSeleccionSnacks{
+    text-align: center;
+    margin-top: 50px;
+}
+#continuarSeleccionSnacks input{
+    margin-top: 30px;
+     margin-left: 15px; 
+     margin-right: 15px;
+      border-radius: 10px; 
+      width: 130px; 
+      padding: 5px 5px; 
+      border: 1.4px solid #FF6700; 
+      color: #FF6700; 
+      background-color: transparent; 
+      
+}

@@ -1,0 +1,29 @@
+.container{
+    margin-top: 20px;
+}
+.container label{
+    color: white;
+    margin-top: 7px;
+}
+.container .row .col input{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.container .row .col select{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.container .row .col textarea{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.container #enviar{
+    margin-bottom: 20px;
+    margin-left: -10px;
+}
+.container .formulario_validacion-estado{
+    /*margin-right: 300px;*/
+    opacity: 0;
+    margin-left: -50px;
+    color: red;
+}

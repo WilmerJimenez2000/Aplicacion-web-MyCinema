@@ -1,0 +1,14 @@
+.container{
+    margin-top: 50px;
+}
+.container label{
+    color: white;
+    margin-top: 10px;
+}
+.container .row .col input{
+    width: 260px;
+    margin-bottom: 10px;
+}
+.container #enviar{
+    margin-bottom: 50px;
+}

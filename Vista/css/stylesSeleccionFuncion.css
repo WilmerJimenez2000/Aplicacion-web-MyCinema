@@ -1,0 +1,45 @@
+#fecha{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #FF6700;
+    width: 650px;
+}
+#fecha a{
+    font-size: 40px;
+    margin-left: 25px;
+    color: #FF6700;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: black;
+}
+#fecha a:hover{
+    background-color: yellow;
+}
+
+#dosD{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*background-color: white;*/
+    border: 2px solid #FF6700;
+    background-color: black;
+    color: #FF6700;
+    position: relative;
+}
+
+#tresD{
+    /*background-color: white;*/
+    border: 2px solid #FF6700;
+    background-color: black;
+    color: #FF6700;
+    position: relative;
+}
+
+#tresD a{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#dosD a{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

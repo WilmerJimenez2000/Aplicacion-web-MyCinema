@@ -1,0 +1,24 @@
+.seccionA{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+.seccionA h2{
+    color: white;
+    font-size: 30px;
+}
+.seccionA #Actor{
+    height: 200px;
+    width: 200px;
+}
+.seccionA #Pelicula{
+    height: 200px;
+    width: 230px;
+}
+.seccionA #Sala{
+    height: 200px;
+    width: 200px;
+}
+.seccionA #Funcion{
+    height: 200px;
+    width: 200px;
+}

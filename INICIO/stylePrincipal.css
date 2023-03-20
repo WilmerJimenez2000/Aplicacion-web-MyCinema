@@ -1,0 +1,21 @@
+/*----------------------------------Estilos Carousel----------------------------------*/
+.slider{
+    width: 740px;
+    height: 615px;
+    /*margin-left: 300px;*/
+    margin-bottom: 30px;
+    color: white;
+    /*border: 5px solid white;*/
+}
+.slider img{
+    /*width: 100%;*/
+    width: 700px;
+    height: 605px;
+    margin-top: 0px;
+}
+#tarjeta{
+    margin-left: 50px;
+}
+#tarjeta img{
+    margin-top: 10px;
+}

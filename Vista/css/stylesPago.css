@@ -1,0 +1,6 @@
+.table h2{
+    display: inline-block; 
+    vertical-align: top;
+    color: white;
+    margin-left: 10px;
+}
